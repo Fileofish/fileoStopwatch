@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+  <div class="timer">
+    <div class="timer__display">
+      <h1 class="timer__display__title">seconds</h1>
+      <p class="timer__display__content">0</p>
+      <img src="assets/pike.png" alt="pike" class="timer__display__img">
+    </div>
+    <div class="timer__buttons-wrapper">
+      <input type="number" value="1000" placeholder="1000" min="100" max="1000" class="input timer__input">
+      <button class="button"><p class="timer__start">Start</p></button>
+      <button class="button"><p class="timer__stop">Stop</p></button>
+      <button class="button"><p class="timer__reset">Reset</p></button>
+    </div>
+  </div>
+  <footer class="footer">
+    <a href="https://github.com/Fileofish?tab=repositories" class="github-link" target="_blank">@ 2023 <span class="github-icon"></span> Fileofish</a>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
