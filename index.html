@@ -19,7 +19,11 @@
       <img src="assets/pike.png" alt="pike" class="timer__display__img">
     </div>
     <div class="timer__buttons-wrapper">
-      <input type="number" value="1000" placeholder="1000" min="100" max="1000" class="input timer__input">
+      <div class="timer__form">
+        <p class="timer__input-wrapper__text">Interval</p>
+        <input type="number" value="1000" placeholder="1000" min="100" max="1000" class="input timer__form__input">
+        <p class="timer__input-wrapper__text">ms</p>
+      </div>
       <button class="button"><p class="timer__start">Start</p></button>
       <button class="button"><p class="timer__stop">Stop</p></button>
       <button class="button"><p class="timer__reset">Reset</p></button>

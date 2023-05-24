@@ -44,7 +44,7 @@ var Timer = /** @class */ (function () {
 }());
 document.addEventListener('DOMContentLoaded', function () {
     var page = document.querySelector('.page');
-    var inputInterval = document.querySelector('.timer__input');
+    var inputInterval = document.querySelector('.timer__form__input');
     var buttonStart = document.querySelector('.timer__start');
     var buttonStop = document.querySelector('.timer__stop');
     var buttonReset = document.querySelector('.timer__reset');
